@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Revolution: Kompletní průvodce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <style>
+        :root {
+            --gold: #f7931a;
+            --cyan: #00f2ff;
+            --magenta: #ff00ff;
+            --bg-dark: #020205;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Orbitron', sans-serif !important; text-transform: uppercase; }
+        
+        /* Neonové efekty */
+        .neon-text-gold { color: var(--gold); text-shadow: 0 0 20px rgba(247, 147, 26, 0.8); }
+        .neon-text-cyan { color: var(--cyan); text-shadow: 0 0 20px rgba(0, 242, 255, 0.8); }
+        
+        .content-card {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 40px !important;
+            border-radius: 15px;
+            border: 2px solid var(--cyan);
+            box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+            text-align: left;
+        }
+
+        .border-gold { border-color: var(--gold); box-shadow: 0 0 30px rgba(247, 147, 26, 0.2); }
+
+        .reveal .slides section { padding: 20px; }
+        
+        .footer-info {
+            font-size: 0.4em;
+            position: absolute;
+            bottom: -100px;
+            width: 100%;
+            text-align: center;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- 1. ÚVOD (INTRO) -->
+            <section data-background-image="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2000" data-background-opacity="0.5">
+                <div class="animate__animated animate__zoomIn">
+                    <h1 class="neon-text-gold">KRYPTOMĚNY</h1>
+                    <h3 style="letter-spacing: 5px;">Finanční svoboda 2.0</h3>
+                    <hr style="border: 1px solid var(--cyan); width: 50%;">
+                    <p>Prezentace o technologii, která mění svět</p>
+                    <p style="font-size: 0.6em; margin-top: 20px;">Stiskněte <span class="neon-text-cyan">Mezerník</span></p>
+                </div>
+            </section>
+
+            <!-- 2. CO JE TO KRYPTO (DEFINICE) -->
+            <section data-background-image="https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=2000" data-background-opacity="0.3">
+                <div class="content-card">
+                    <h2 class="neon-text-cyan">Co jsou kryptoměny?</h2>
+                    <ul>
+                        <li class="fragment"><strong>Digitální aktiva:</strong> Neexistují ve fyzické podobě.</li>
+                        <li class="fragment"><strong>Decentralizace:</strong> Žádná centrální banka (ČNB, Fed).</li>
+                        <li class="fragment"><strong>P2P:</strong> Přímé platby od člověka k člověku.</li>
+                        <li class="fragment"><strong>Globální:</strong> Hranice států pro ně neexistují.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 3. BLOCKCHAIN (TECHNICKÉ POZADÍ) -->
+            <section data-background-image="https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=2000" data-background-opacity="0.2">
+                <h2 class="neon-text-gold">Srdce systému: Blockchain</h2>
+                <div style="display: flex; gap: 20px;">
+                    <div class="content-card border-gold" style="flex: 1;">
+                        <p>Digitální účetní kniha, kterou <strong>nelze přepsat</strong>. Každá transakce je navždy zapsána do bloku, který je kryptograficky propojen s předchozím.</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=600" style="width: 300px; border-radius: 20px;">
+                </div>
+            </section>
+
+            <!-- 4. BITCOIN (KRÁL) -->
+            <section data-background-image="https://images.unsplash.com/photo-1516245834210-c4c142787335?q=80&w=2000" data-background-opacity="0.4">
+                <h1 class="neon-text-gold animate__animated animate__pulse animate__infinite">BITCOIN</h1>
+                <div class="content-card border-gold">
+                    <p><strong>Založen:</strong> 2009 (Satoshi Nakamoto)</p>
+                    <p><strong>Množství:</strong> Konečných 21 milionů mincí.</p>
+                    <p><strong>Funkce:</strong> Digitální uchovatel hodnoty (zlato 21. století).</p>
+                </div>
+            </section>
+
+            <!-- 5. ETHEREUM (EKOSYSTÉM) -->
+            <section data-background-image="https://images.unsplash.com/photo-1622790694515-6442049b6d80?q=80&w=2000" data-background-opacity="0.3">
+                <h2 class="neon-text-cyan">Ethereum & Smart Contracts</h2>
+                <div class="content-card">
+                    <p>Ethereum není jen měna, je to <strong>programovatelný blockchain</strong>.</p>
+                    <p>Umožňuje vznik:</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 0.7em;">
+                        <div style="background: rgba(0,242,255,0.1); padding: 10px;"><strong>DeFi:</strong> Finance bez bank.</div>
+                        <div style="background: rgba(0,242,255,0.1); padding: 10px;"><strong>NFT:</strong> Digitální umění a vlastnictví.</div>
+                    </div>
+                </div>
+                <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" width="80" style="margin-top: 20px; filter: drop-shadow(0 0 10px #fff);">
+            </section>
+
+            <!-- 6. BEZPEČNOST (VAROVÁNÍ) -->
+            <section data-background-color="#200">
+                <h2 style="color: #ff4b2b;">Bezpečnost především</h2>
+                <div class="content-card" style="border-color: #ff4b2b;">
+                    <p><strong>1. Hardwarové peněženky:</strong> Nejbezpečnější volba (Trezor/Ledger).</p>
+                    <p><strong>2. Seed Phrase:</strong> Vašich 12-24 slov, která nikdy nikomu nedávejte!</p>
+                    <p><strong>3. Žádné heslo = Žádné peníze:</strong> V kryptu neexistuje tlačítko "zapomněl jsem heslo".</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?q=80&w=500" width="300" style="margin-top: 20px;">
+            </section>
+
+            <!-- 7. PROČ INVESTOVAT? -->
+            <section data-background-image="https://images.unsplash.com/photo-1611974714131-06753389b37c?q=80&w=2000" data-background-opacity="0.4">
+                <h2 class="neon-text-cyan">Proč sledovat krypto?</h2>
+                <div class="content-card">
+                    <p>📈 <strong>Institucionální adopce:</strong> Firmy jako BlackRock a Tesla už jsou v trhu.</p>
+                    <p>🛡️ <strong>Ochrana proti inflaci:</strong> Peníze, které nikdo nemůže libovolně tisknout.</p>
+                    <p>🌍 <strong>Bankovnictví pro všechny:</strong> Stačí mobil a internet.</p>
+                </div>
+            </section>
+
+            <!-- 8. ZAKONČENÍ (OUTRO) -->
+            <section data-background-gradient="linear-gradient(to bottom, #020205, #16213e)">
+                <div class="animate__animated animate__fadeInUp">
+                    <h1 class="neon-text-gold">BUDOUCNOST JE TADY</h1>
+                    <p>Kryptoměny nejsou jen spekulace, je to technologický posun.</p>
+                    <div style="margin: 40px 0;">
+                        <h2 class="neon-text-cyan">DĚKUJI ZA POZORNOST</h2>
+                    </div>
+                    <p style="font-size: 0.8em; opacity: 0.7;">Máte nějaké dotazy?</p>
+                    <hr style="border: 1px solid var(--gold); width: 30%;">
+                    <p style="font-size: 0.4em;">© 2026 | Crypto Education Series</p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- REVEAL.JS SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            center: true,
+            controls: true,
+            progress: true,
+            mouseWheel: true,
+            transition: 'convex', // 3D efekt otáčení
+            backgroundTransition: 'zoom'
+        });
+    </script>
+</body>
+</html>
